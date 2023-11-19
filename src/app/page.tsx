@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Kelas from './kelas/kelas'
 import Link from 'next/link'
 
 export default function Home() {
