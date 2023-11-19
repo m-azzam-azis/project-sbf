@@ -1,7 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Footer = () => {
+
+export default function Footer() {
+  
+
   return (
     <div className='bg-black text-white px-2 min-[320px]:px-6 sm:px-12 md:px-18 lg:px-24 xl:px-30 py-2 w-full'>
       <h1 id='contact' className='px-2 py-3 text-xl font-bold border-b-[1px] border-white mb-3'>Feel free to contact us</h1>
@@ -46,5 +49,3 @@ const Footer = () => {
     </div>
   )
 }
-
-export default Footer
