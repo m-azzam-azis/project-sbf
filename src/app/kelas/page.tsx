@@ -98,7 +98,7 @@ export default function kelas() {
         </li>
       </div>
 
-      <div className='h-auto bg-slate-800 rounded-lg justify-center'>
+      <div className='h-auto bg-dark-purple rounded-3xl justify-center'>
         <div className='m-10 py-10 text-center text-white'>
           <h1 className='text-4xl font-extrabold'>apa kata mereka?</h1>
           <h2>pengalaman hahahahahaha</h2>
@@ -147,14 +147,42 @@ export default function kelas() {
             </div>
           </div>
         </div>
-        <div className='m-10 px-[23%] text-center text-white'>
+        <div className='m-10 px-[23%] text-center text-white pb-64'>
           <h1 className='text-4xl font-extrabold'>Kelas Dengan</h1>
           <h1 className='text-4xl font-extrabold'>Tutor Keren</h1>
           <h2 className='mt-8'>"Syllogism menyajikan tutor-tutor ahli yang tidak hanya berkompeten namun juga asik dan seru loh!.  Dijaminan belajar akan lebih terasa menyenangkan dan materi pembelajaran menjadi lebih mudah dipahami."</h2>
         </div>
-        <div>
-          
+        <div className='flex justify-center relative pt-72 mt-64'>
+          <Image
+            className='object-contain z-20 absolute bottom-0 left-[14%]'
+            src="/bawah-review/kiri.png"
+            width={600}
+            height={600}
+            alt="icon"
+              />
+          <Image
+            className='object-contain absolute bottom-0 z-30'
+            src="/bawah-review/tengah.png"
+            width={500}
+            height={500}
+            alt="icon"
+              />
+          <Image
+            className='object-contain z-10 absolute bottom-0 right-[11%]'
+            src="/bawah-review/kanan.png"
+            width={500}
+            height={500}
+            alt="icon"
+              />
+          <Image
+            className=' bottom-0 absolute z-0 w-full'
+            src="/bawah-review/Ellipse 21 1.png"
+            width={800}
+            height={500}
+            alt="icon"
+              />
         </div>
+        
       </div>
     </main>
   )
