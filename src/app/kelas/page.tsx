@@ -150,7 +150,7 @@ export default function kelas() {
         <div className='m-10 px-[23%] text-center text-white pb-64'>
           <h1 className='text-4xl font-extrabold'>Kelas Dengan</h1>
           <h1 className='text-4xl font-extrabold'>Tutor Keren</h1>
-          <h2 className='mt-8'>"Syllogism menyajikan tutor-tutor ahli yang tidak hanya berkompeten namun juga asik dan seru loh!.  Dijaminan belajar akan lebih terasa menyenangkan dan materi pembelajaran menjadi lebih mudah dipahami."</h2>
+          <h2 className='mt-8'>&quot;Syllogism menyajikan tutor-tutor ahli yang tidak hanya berkompeten namun juga asik dan seru loh!.  Dijaminan belajar akan lebih terasa menyenangkan dan materi pembelajaran menjadi lebih mudah dipahami.&quot;</h2>
         </div>
         <div className='flex justify-center relative pt-72 mt-64'>
           <Image
