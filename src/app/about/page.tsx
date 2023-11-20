@@ -219,7 +219,7 @@ export default function about() {
 
 
         <div className='w-full h-full bg-gray-300 rounded-3xl py-4 grid grid-rows-2 overflow-hidden relative border-4 border-transparent hover:border-pink-500 transition-all'>
-        <div className='relative h-full w-full items-center justify-center pt-6'>
+        <div className='relative h-full w-full items-center justify-center pt-6 '>
           <Image
               className='rounded-3xl mx-auto'
               src="/about/purple_box.png"
@@ -229,21 +229,22 @@ export default function about() {
                 /> 
           <Image
               className='w-full h-full pl-6 z-10 top-0 absolute object-contain rounded-3xl'
-              src="/about/savitri.png"
+              src="/about/fr.png"
               width={300}
               height={300}
               alt="icon"
                 />
           </div>
-          <div className='pt-6 grid grid-rows-3 px-10'>
+          <div className='pt-6 grid grid-rows-3 px-10 group'>
             <div>
               <h1 className='text-3xl font-bold text-purple-900'>Fariz Muhammad</h1>
               <p className='font-light text-sm text-purple-900'>Software Engineer</p>
             </div>  
-            <div>
+            <div className=''>
               <p className=' pr-2 pb-2 text-justify'>
-              Mahasiswa Sistem Informasi angkatan Gaung 2023. Big interest in data science, netsos, webdev.
+              Mahasiswa Sistem Informasi angkatan Gaung 2023. Interested in DatSci and Netsos <span className='group-hover:text-white text-gray-300 font-bold'>, cita-cita istri 4</span>
               </p>
+              <p className='hidden hover:flex'> doain bisa punya istri 4 yak</p>
             </div>
             
             <div className='pt-4  rounded-lg'>
