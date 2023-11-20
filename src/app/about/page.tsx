@@ -8,7 +8,7 @@ export default function about() {
       <Navbar/>
       <div className='absolute top-0' id='company'></div>
     <main className=" min-h-full bg-our-gray py-8 px-20 min-w-[1200px]">
-      <div className=' bg-dark-purple rounded-3xl relative text-white mb-32' >
+      <div className=' bg-dark-purple rounded-3xl relative text-white' >
         <Image
             className='w-full z-0 opacity-50 rounded-3xl'
             src="/gedung/gedung.png"
@@ -23,7 +23,8 @@ export default function about() {
           </div>
         </div>
       </div>
-      <div className='grid grid-rows-2 items-center justify-center text-center gap-10 mb-32'>
+      <div  id='team' className='flex mb-32'></div>
+      <div className='grid grid-rows-2 items-center justify-center text-center gap-10 mb-32' id='team'>
         <h1 className='text-4xl font-bold'>Our Team</h1>
         <p className='mx-72 text-xl'>Tim kami terdiri dari web developer dan desainer UI/UX ahli, menciptakan pengalaman web inovatif melalui kombinasi keahlian teknis dan kreativitas.</p>
       </div>

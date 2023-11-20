@@ -19,8 +19,8 @@ export default function Footer() {
         <div className='text-2xl text-white font-semibold text-left inline-block w-52 h-full'>
         <h1 className='text-2xl mb-4'>Tentang Kami</h1>
           <div className='w-1/3 text-xl text-left font-normal'>
-            <a href="/about#company"><p className='mb-2 whitespace-nowrap text-lg'>Company</p></a>
-            <p className='mb-2 whitespace-nowrap text-lg'>Our Team</p>
+            <a href="/about#company"><p className='mb-2 whitespace-nowrap text-lg hover:translate-x-1'>Company</p></a>
+            <a href="/about#team"> <p className='mb-2 whitespace-nowrap text-lg hover:translate-x-1'>Our Team</p></a>
             <p className='mb-2 whitespace-nowrap text-lg'>Partner With Us</p>
             <p className='mb-2 whitespace-nowrap text-lg'>Pusat Bantuan</p>
           </div>
