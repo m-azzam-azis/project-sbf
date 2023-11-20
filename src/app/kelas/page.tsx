@@ -1,10 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from '@/components/Navbar'
 
 export default function kelas() {
   return (
+    <div>
+      <Navbar/>
     <main className=" min-h-full bg-our-gray py-8 px-20 min-w-[1200px]">
-      <div className='flex justify-center w-full mt-8'>
+      <div className='absolute top-0 h-0' id='materi'></div>
+      <div className='flex justify-center w-full mt-8' >
         <h1 className='text-6xl text-dark-purple font-extrabold text-center'>Materi&nbsp;</h1>
         <h1 className='text-6xl text-our-orange font-extrabold text-center'>UTBK</h1>
       </div>
@@ -111,7 +115,7 @@ export default function kelas() {
         </li>
       </div>
 
-      <div className='h-auto bg-dark-purple rounded-3xl justify-center'>
+      <div className='h-auto bg-dark-purple rounded-3xl justify-center' id='testimoni'>
         <div className='m-10 py-36 text-center text-white'>
           <h1 className='text-6xl font-extrabold'>Apa Kata Mereka?</h1>
           <h2 className='mt-6 text-xl'>Pengalaman dari mereka yang udah pernah berlajar bareng di Sylogism</h2>
@@ -199,10 +203,12 @@ export default function kelas() {
         
       </div>
 
-      <div className='justify-center w-full my-10 px-10'>
+      <div className='justify-center w-full my-10 px-10' id='penawaran'>
         <h1 className='text-center font-extrabold text-5xl text-dark-purple py-20'>Pilih Paket Langganan Anda</h1>
           <li className='grid grid-cols-3 place-content-evenly place-items-center gap-12'>
-          <ul className='relative grid grid-rows-5 py-10 w-full h-[90%] hover:h-[95%] transition-all bg-light-purple rounded-[2.5rem] place-items-center shadow-inner shadow-dark-purple hover:shadow-none hover:border-pink-500 border-4 border-our-gray'>
+
+
+          <a href='/join' className='relative grid grid-rows-5 py-10 w-full h-[90%] hover:h-[95%] transition-all bg-light-purple rounded-[2.5rem] place-items-center shadow-inner shadow-dark-purple hover:shadow-none hover:border-pink-500 border-4 border-our-gray'>
             <div className='h-full w-full pt-10 text-center row-span-1'>
               <p className='text-black text-2xl font-medium'>Pintar</p>
             </div>
@@ -219,8 +225,10 @@ export default function kelas() {
                 <li>Layanan 24 jam</li>
               </ul>
             </div>
-          </ul>
-          <ul className='relative grid grid-rows-5 py-10 w-full h-[95%] hover:h-full transition-all bg-dark-purple rounded-[2.5rem] place-items-center shadow-inner shadow-black hover:shadow-none hover:border-pink-500 hover:border-[5px]'>
+          </a>
+
+
+          <a href='/join' className='relative grid grid-rows-5 py-10 w-full h-[95%] hover:h-full transition-all bg-dark-purple rounded-[2.5rem] place-items-center shadow-inner shadow-black hover:shadow-none hover:border-pink-500 hover:border-[5px]'>
             <p className='absolute top-0 left-10 bg-our-orange rounded-b-2xl px-2 pb-2 text-white font-medium shadow-inner'>Best Value</p>
             <div className='h-full w-full pt-10 text-center row-span-1'>
               <p className='text-white text-2xl font-medium'>Genius</p>
@@ -238,29 +246,32 @@ export default function kelas() {
                 <li>Layanan 24 jam</li>
               </ul>
             </div>
-          </ul>
-          <ul className='relative grid grid-rows-5 py-10 w-full h-[90%] hover:h-[95%] transition-all bg-light-purple rounded-[2.5rem] place-items-center shadow-inner shadow-dark-purple hover:shadow-none hover:border-pink-500 border-4 border-our-gray'>
-            <div className='h-full w-full pt-10 text-center row-span-1'>
-              <p className='text-black text-2xl font-medium'>Cerdas</p>
-            </div>
-            <div className=' text-black h-full w-full py-10 text-center  row-span-2'>
-              <h1 className='text-5xl font-bold '>
-                Rp949.999
-              </h1>
-              <p>per bulan</p>
-            </div>
-            <div className='self-end h-full w-full py-10 text-start px-12  row-span-2'>
-              <ul className='list-disc'>
-                <li>Langganan <span className='font-semibold'>3 bulan</span> &#40;1/2 semester&#41;</li>
-                <li>Akses gratis video pembelajaran mata pelajaran terpilih</li>
-                <li>Layanan 24 jam</li>
-              </ul>
-            </div>
-          </ul>
+          </a>
+
+
+            <a href='/join' className='relative grid grid-rows-5 py-10 w-full h-[90%] hover:h-[95%] transition-all bg-light-purple rounded-[2.5rem] place-items-center shadow-inner shadow-dark-purple hover:shadow-none hover:border-pink-500 border-4 border-our-gray'>
+              <div className='h-full w-full pt-10 text-center row-span-1'>
+                <p className='text-black text-2xl font-medium'>Cerdas</p>
+              </div>
+              <div className=' text-black h-full w-full py-10 text-center row-span-2'>
+                <h1 className='text-5xl font-bold '>
+                  Rp949.999
+                </h1>
+                <p>per bulan</p>
+              </div>
+              <div className='self-end h-full w-full py-10 text-start px-12  row-span-2'>
+                <ul className='list-disc'>
+                  <li>Langganan <span className='font-semibold'>3 bulan</span> &#40;1/2 semester&#41;</li>
+                  <li>Akses gratis video pembelajaran mata pelajaran terpilih</li>
+                  <li>Layanan 24 jam</li>
+                </ul>
+              </div>
+            </a>
         
           
         </li>
       </div>
     </main>
+    </div>
   )
 }
