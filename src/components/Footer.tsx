@@ -6,7 +6,7 @@ export default function Footer() {
   
 
   return (
-    <div className='bg-black text-white px-2 min-[320px]:px-6 sm:px-12 md:px-18 lg:px-24 xl:px-30 py-2 w-full'>
+    <div className='bg-black text-white px-30 py-2 min-w-[1200px]'>
       <h1 id='contact' className='px-2 py-3 text-xl font-bold border-b-[1px] border-white mb-3'>Feel free to contact us</h1>
       <ul className='p-2 items-center'>
         <li id='insta'>

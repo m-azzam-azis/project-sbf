@@ -15,9 +15,10 @@ const config: Config = {
       },
       colors: {
         'our-gray': '#f3f3f3',
-        'light-purple': '#6f63ad',
+        'light-purple': '#C4BFDB',
         'our-yellow' : '#fcf201',
-        'dark-purple' : '#262142'
+        'dark-purple' : '#262142',
+        'our-orange': '#F47133'
       }
     },
   },

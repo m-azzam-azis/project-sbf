@@ -4,18 +4,17 @@ import Kelas from "../app/kelas/page";
 
 export default function Navbar() {
   return (
-    <div className="sticky top-0 w-full bg-white">
-      <nav className="t-0 bg-white px-12 py-6">
+    <div className="sticky top-0 bg-white z-50 min-w-[1200px]">
+      <nav className="t-0 bg-white px-12 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-black font-extrabold text-3xl ml-10">
+          <div className="text-black font-extrabold text-3xl ml-10 transition-all hover:bg-black hover:text-white hover:rounded-lg p-2">
             <a href="/">Syllogism</a>
           </div>
-          <div className="border-r-2 border-white h-8 min-[320px]:hidden"></div>
           <ul className="flex sm:space-x-4 space-x-2 md:space-x-8 lg:space-x-12">
             <li>
               <Link
-                href="/about"
-                className="text-black hover:text-light-purple text-xs sm:text-lg"
+                href="/"
+                className="text-black hover:text-our-orange text-md sm:text-lg transition-all"
               >
                 About
               </Link>
@@ -23,7 +22,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/kelas"
-                className="text-black hover:text-light-purple text-xs sm:text-lg"
+                className="text-black hover:text-our-orange text-md sm:text-lg transition-all"
               >
                 Kelas
               </Link>
@@ -31,7 +30,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/login"
-                className="text-black hover:text-light-purple text-xs sm:text-lg"
+                className="text-black hover:text-our-orange text-md sm:text-lg transition-all"
               >
                 Login/Sign Up
               </Link>
