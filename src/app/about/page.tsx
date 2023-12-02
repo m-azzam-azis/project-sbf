@@ -28,6 +28,146 @@ export default function about() {
           <h1 className='text-4xl font-bold'>Our Team</h1>
           <p className='mx-72 text-xl'>Tim kami terdiri dari web developer dan desainer UI/UX ahli, menciptakan pengalaman web inovatif melalui kombinasi keahlian teknis dan kreativitas.</p>
         </div>
+
+        <h1 className='text-4xl font-bold text-purple-800 my-10'>Software Engineers</h1>
+        <div className='grid grid-cols-3 w-full overflow-scroll gap-10 mb-32'>
+          {/* // TODO: azzam */}
+          <div className='w-full h-full bg-slate-300 rounded-3xl py-4 grid grid-rows-2 overflow-hidden relative border-4 border-transparent hover:border-blue-500 transition-all'>
+            <div className='relative h-full w-full items-center justify-center pt-6'>
+              <Image
+                className='rounded-3xl mx-auto'
+                src="/about/purple_box.png"
+                width={300}
+                height={300}
+                alt="icon"
+              />
+              <Image
+                className='w-full h-full pl-6 z-10 top-0 absolute object-contain rounded-br-[4.5rem] '
+                src="/about/azzam.png"
+                width={700}
+                height={700}
+                alt="icon"
+              />
+            </div>
+            <div className='pt-6 grid grid-rows-3 px-10'>
+              <div>
+                <h1 className='text-3xl font-bold text-purple-900'>Muhammad Azzam</h1>
+                <p className=' text-sm text-purple-900'>Lead Software Engineer</p>
+              </div>
+              <div>
+                <p className=' pr-2 pb-2 text-justify'>
+                  Freshman in Information Systems CSUI. Have interest in nature, sports and entrepreneurship.
+                </p>
+              </div>
+
+              <div className='pt-4  rounded-lg'>
+                <a href="https://instagram.com/m.azzam.azis" target='_blank' className='flex'>
+                  <Image
+                    className='object-contain rounded-xl'
+                    src="/sosmed/ig_colour.svg"
+                    width={20}
+                    height={20}
+                    alt="icon"
+                  />
+                  <div className='self-start pl-3 hover:text-pink-600 transition-colors col-span-5 '>m.azzam.azis</div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div className='w-full h-full bg-gray-300 rounded-3xl py-4 grid grid-rows-2 overflow-hidden relative border-4 border-transparent hover:border-pink-500 transition-all'>
+            <div className='relative h-full w-full items-center justify-center pt-6'>
+              <Image
+                className='rounded-3xl mx-auto'
+                src="/about/purple_box.png"
+                width={300}
+                height={300}
+                alt="icon"
+              />
+              <Image
+                className='w-full h-full pl-6 z-10 top-0 absolute object-contain rounded-bl-[4.3rem]'
+                src="/about/grace.png"
+                width={300}
+                height={300}
+                alt="icon"
+              />
+            </div>
+            <div className='pt-6 grid grid-rows-3 px-10'>
+              <div>
+                <h1 className='text-3xl font-bold text-purple-900'>Grace Karina</h1>
+                <p className='font-light text-sm text-purple-900'>Software Engineer</p>
+              </div>
+              <div>
+                <p className=' pr-2 pb-2 text-justify'>
+                  Mahasiswi Ilmu Komputer angkatan Gaung 2023. Big interested in data science dan netsos.
+                </p>
+              </div>
+
+              <div className='pt-4  rounded-lg'>
+                <a href="https://instagram.com/gracekarinn" target='_blank' className='flex'>
+                  <Image
+                    className='object-contain rounded-xl'
+                    src="/sosmed/ig_colour.svg"
+                    width={20}
+                    height={20}
+                    alt="icon"
+                  />
+                  <div className='self-start pl-3 hover:text-pink-600 transition-colors col-span-5 '>gracekarinn</div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div className='w-full h-full bg-gray-300 rounded-3xl py-4 grid grid-rows-2 overflow-hidden relative border-4 border-transparent hover:border-blue-500 transition-all'>
+            <div className='relative h-full w-full items-center justify-center pt-6 '>
+              <Image
+                className='rounded-3xl mx-auto'
+                src="/about/purple_box.png"
+                width={300}
+                height={300}
+                alt="icon"
+              />
+              <Image
+                className='w-full h-full pl-6 z-10 top-0 absolute object-contain rounded-3xl'
+                src="/about/fr.png"
+                width={300}
+                height={300}
+                alt="icon"
+              />
+            </div>
+            <div className='pt-6 grid grid-rows-3 px-10 group'>
+              <div>
+                <h1 className='text-3xl font-bold text-purple-900'>Fariz Muhammad</h1>
+                <p className='font-light text-sm text-purple-900'>Software Engineer</p>
+              </div>
+              <div className=''>
+                <p className=' pr-2 pb-2 text-justify'>
+                  Mahasiswa Sistem Informasi angkatan Gaung 2023. Interested in DatSci and Netsos
+                </p>
+
+              </div>
+
+              <div className='pt-4  rounded-lg'>
+                <a href="https://instagram.com/farizmrr" target='_blank' className='flex'>
+                  <Image
+                    className='object-contain rounded-xl'
+                    src="/sosmed/ig_colour.svg"
+                    width={20}
+                    height={20}
+                    alt="icon"
+                  />
+                  <div className='self-start pl-3 hover:text-pink-600 transition-colors col-span-5 '>farizmrr</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
         <h1 className='text-4xl font-bold text-purple-800 my-10'>UI / UX Designers</h1>
 
         <div className='grid grid-cols-3 w-full overflow-scroll gap-10 mb-32'>
@@ -126,145 +266,7 @@ export default function about() {
 
 
 
-        <h1 className='text-4xl font-bold text-purple-800 my-10'>Software Engineers</h1>
-        <div className='grid grid-cols-3 w-full overflow-scroll gap-10 mb-32'>
-          <div className='w-full h-full bg-gray-300 rounded-3xl py-4 grid grid-rows-2 overflow-hidden relative border-4 border-transparent hover:border-pink-500 transition-all'>
-            <div className='relative h-full w-full items-center justify-center pt-6'>
-              <Image
-                className='rounded-3xl mx-auto'
-                src="/about/purple_box.png"
-                width={300}
-                height={300}
-                alt="icon"
-              />
-              <Image
-                className='w-full h-full pl-6 z-10 top-0 absolute object-contain rounded-br-[4.5rem] '
-                src="/about/azzam.png"
-                width={700}
-                height={700}
-                alt="icon"
-              />
-            </div>
-            <div className='pt-6 grid grid-rows-3 px-10'>
-              <div>
-                <h1 className='text-3xl font-bold text-purple-900'>Muhammad Azzam</h1>
-                <p className='font-light text-sm text-purple-900'>Software Engineer</p>
-              </div>
-              <div>
-                <p className=' pr-2 pb-2 text-justify'>
-                  Freshman in Information Systems CSUI. Have interest in nature, sports and entrepreneurship.
-                </p>
-              </div>
 
-              <div className='pt-4  rounded-lg'>
-                <a href="https://instagram.com/m.azzam.azis" target='_blank' className='flex'>
-                  <Image
-                    className='object-contain rounded-xl'
-                    src="/sosmed/ig_colour.svg"
-                    width={20}
-                    height={20}
-                    alt="icon"
-                  />
-                  <div className='self-start pl-3 hover:text-pink-600 transition-colors col-span-5 '>m.azzam.azis</div>
-                </a>
-
-              </div>
-            </div>
-          </div>
-
-
-          <div className='w-full h-full bg-gray-300 rounded-3xl py-4 grid grid-rows-2 overflow-hidden relative border-4 border-transparent hover:border-pink-500 transition-all'>
-            <div className='relative h-full w-full items-center justify-center pt-6'>
-              <Image
-                className='rounded-3xl mx-auto'
-                src="/about/purple_box.png"
-                width={300}
-                height={300}
-                alt="icon"
-              />
-              <Image
-                className='w-full h-full pl-6 z-10 top-0 absolute object-contain rounded-bl-[4.3rem]'
-                src="/about/grace.png"
-                width={300}
-                height={300}
-                alt="icon"
-              />
-            </div>
-            <div className='pt-6 grid grid-rows-3 px-10'>
-              <div>
-                <h1 className='text-3xl font-bold text-purple-900'>Grace Karina</h1>
-                <p className='font-light text-sm text-purple-900'>Software Engineer</p>
-              </div>
-              <div>
-                <p className=' pr-2 pb-2 text-justify'>
-                  Mahasiswi Ilmu Komputer angkatan Gaung 2023. Big interested in data science dan netsos.
-                </p>
-              </div>
-
-              <div className='pt-4  rounded-lg'>
-                <a href="https://instagram.com/gracekarinn" target='_blank' className='flex'>
-                  <Image
-                    className='object-contain rounded-xl'
-                    src="/sosmed/ig_colour.svg"
-                    width={20}
-                    height={20}
-                    alt="icon"
-                  />
-                  <div className='self-start pl-3 hover:text-pink-600 transition-colors col-span-5 '>gracekarinn</div>
-                </a>
-
-              </div>
-            </div>
-          </div>
-
-
-          <div className='w-full h-full bg-gray-300 rounded-3xl py-4 grid grid-rows-2 overflow-hidden relative border-4 border-transparent hover:border-pink-500 transition-all'>
-            <div className='relative h-full w-full items-center justify-center pt-6 '>
-              <Image
-                className='rounded-3xl mx-auto'
-                src="/about/purple_box.png"
-                width={300}
-                height={300}
-                alt="icon"
-              />
-              <Image
-                className='w-full h-full pl-6 z-10 top-0 absolute object-contain rounded-3xl'
-                src="/about/fr.png"
-                width={300}
-                height={300}
-                alt="icon"
-              />
-            </div>
-            <div className='pt-6 grid grid-rows-3 px-10 group'>
-              <div>
-                <h1 className='text-3xl font-bold text-purple-900'>Fariz Muhammad</h1>
-                <p className='font-light text-sm text-purple-900'>Software Engineer</p>
-              </div>
-              <div className=''>
-                <p className=' pr-2 pb-2 text-justify'>
-                  Mahasiswa Sistem Informasi angkatan Gaung 2023. Interested in DatSci and Netsos
-                </p>
-
-              </div>
-
-              <div className='pt-4  rounded-lg'>
-                <a href="https://instagram.com/farizmrr" target='_blank' className='flex'>
-                  <Image
-                    className='object-contain rounded-xl'
-                    src="/sosmed/ig_colour.svg"
-                    width={20}
-                    height={20}
-                    alt="icon"
-                  />
-                  <div className='self-start pl-3 hover:text-pink-600 transition-colors col-span-5 '>farizmrr</div>
-                </a>
-
-              </div>
-            </div>
-          </div>
-
-
-        </div>
       </main>
     </div>
   )
